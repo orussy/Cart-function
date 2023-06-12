@@ -1,0 +1,106 @@
+.dropbtn2 {
+    background-color: transparent;
+    color:red;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+  }
+  .dropbtn2:hover{color: #0B5ED7;
+    transform: scale(1.1);}
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown2 {
+    position: relative;
+    padding-left: 50%;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    margin-left: -200px;
+    margin-top: 14px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content2 .cart2 {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content2 .cart2:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown2:hover .dropdown-content2 {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown2:hover .dropbtn2 {color: #0B5ED7;}
+  .card2{
+   width: 300px;
+   padding: 5px; 
+  }
+  
+  .cart2{
+    width: 550px;
+  padding-right: 300px;
+    justify-content: center;
+    overflow-y: scroll;
+    height: 500px;
+  }
+  .cart2 .title2{
+    text-align: center;
+  }
+  .cart2 img{
+    width: 100px;
+    float: right;
+  
+  }
+  
+  .cart2 button{
+   background-color:#7ECAE1;
+   color: white;
+   padding: 5px;
+   border-radius: 10px;
+   margin-left: 200px;
+  }
+  .cart2 button:hover{background-color:#0B5ED7;
+  transform: scale(1.1);}
+  .pad15 img{
+                margin-left: -9.9px;
+                margin-top: -3  px;
+                margin-right: 0px;
+                width: 166px;
+                height: 130px;
+                border-radius: 5%;
+            }
+    .pad15 button{
+        border: none;
+        background-color: #25119b;
+        color: #7ECAE1;}
+    .pad15{
+
+        background-color: #0B5ED7;
+    }
+  .pad15 button:hover{color: #0B5ED7;}
+  .item{
+    width: 400px;
+      transition: 0.7s ease;
+    }
+    .item > div {
+    
+     text-align: center; 
+     padding:10px; 
+     margin:10px; 
+
+     background:#25119b;
+      color:#000000;
+      border-radius: 5%;
+      box-shadow: 0 5px 15px rgba(1 1 1/154);
+    }
